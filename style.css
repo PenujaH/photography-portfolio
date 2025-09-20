@@ -77,8 +77,13 @@ h1{
 }
 
 @media (max-width: 450px){
+    main{
+        position: relative;
+    }
+    
     .header{
         font-size: 25pt;
+        color: rebeccapurple;
     }
 
     .main-btn{
