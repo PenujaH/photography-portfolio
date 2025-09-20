@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'TAN MERINGUE';
+  src: url('fonts/TAN MERINGUE.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.background-img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header{
+    width: 80%;
+    text-align: center;
+    font-size: 60pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e0e0d5;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 18pt;
+    color: #e0e0d5;
+    font-family: 'TAN MERINGUE', sans-serif;
+
+}
+
+h1{
+    font-family: 'TAN MERINGUE', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-btn{
+    max-width: 80%;
+    text-decoration: none;
+    color: #e0e0d5;
+    font-weight: bold;
+    font-family: 'Arimo';
+    padding: 15px 50px;
+    border: 1.5px solid #e0e0d5;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 800px) {
+    .header{
+        font-size: 35pt;
+    }
+
+    .main-btn{
+        bottom: 20%;
+    }
+}
