@@ -83,4 +83,8 @@ h1{
     .main-btn{
         padding: 20px;
     }
+
+    .background-img{
+        height: 70vh;
+    }
 }
