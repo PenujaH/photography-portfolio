@@ -79,4 +79,8 @@ h1{
     .header{
         font-size: 25pt;
     }
+
+    .main-btn{
+        padding: 20px;
+    }
 }
