@@ -13,7 +13,8 @@
 
 body{
     background-color: #0E0E0E;
-    color: #ffffff;
+    color: #d8d7d7;
+    font-family: 'Arimo';
 }
 
 main{
@@ -39,6 +40,7 @@ main{
 }
 
 .main-text{
+    max-width: 90%;
     font-family: 'TAN MERINGUE';
     font-size: 50pt;
 }
@@ -71,7 +73,7 @@ main{
     margin-bottom: 10px;
     object-fit: cover;
     padding-bottom: 15px;
-    border-bottom: 1.5px solid rgba(255, 255, 255, 0.719);
+    border-bottom: 1.5px solid #878787;
 
 }
 
@@ -80,7 +82,7 @@ main{
     height: 500px;
     object-fit: cover;
     padding-bottom: 15px;
-    border-bottom: 1.5px solid rgba(255, 255, 255, 0.719);
+    border-bottom: 1.5px solid #878787;
 }
 
 .img-2{
@@ -88,11 +90,10 @@ main{
     height: 400px;
     object-fit: cover;
     padding-bottom: 15px;
-    border-bottom: 1.5px solid rgba(255, 255, 255, 0.719);
+    border-bottom: 1.5px solid #878787;
 }
 
 .img p{
-    color: rgba(255, 255, 255, 0.719);
     margin-top: 5px;
 }
 
@@ -104,19 +105,34 @@ main{
     color: rgb(255, 59, 59);
 }
 
+.about{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.about-me{
+    font-family: 'Arimo';
+}
+
 @media (min-width: 550px) {
     .intro{
         width: 70%;
+    }
+
+    .about-me{
+        width: 50%;
     }
 }
 
 
 @media (min-width: 600px) {
-    .intro{
-        width: 50%;
-    }
-
-    .img-main{
+    .img-main-div{
         display: none;
     }
 
