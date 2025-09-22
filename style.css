@@ -169,7 +169,7 @@ main{
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .img-main-div{
         display: none;
     }
