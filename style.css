@@ -154,6 +154,29 @@ main{
     font-family: 'Arimo';
 }
 
+footer{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.footer-list li a{
+    margin-right: 15px;
+    color: #d8d7d7;
+}
+
+.footer-list{
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    color: #d8d7d7;
+    font-family: 'Arimo';
+    margin-bottom: 20px;
+}
+
 @media (min-width: 550px) {
     .intro{
         width: 80%;
@@ -178,5 +201,6 @@ main{
         display: flex;
     }
 }
+
 
 
